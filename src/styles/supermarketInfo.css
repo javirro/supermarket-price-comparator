@@ -2,6 +2,14 @@
   position: relative;
   height: 100%;
   padding-bottom: 25px;
+    background-image: linear-gradient(
+    to left bottom,
+    #095a05,
+    #0d460e,
+    #0f3210,
+    #101f0f,
+    #080908
+  );
 }
 
 header {
