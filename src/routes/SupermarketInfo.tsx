@@ -1,5 +1,7 @@
 import { useParams } from "react-router-dom";
 import carrefourData from "../data/carrefour.json";
+import mercadonaData from "../data/mercadona.json";
+import alcampoData from "../data/alcampo.json";
 import gadisData from "../data/gadis.json";
 import { Items, Supermarkets } from "../utils/types";
 import { ItemList } from "../components/ItemList/ItemList";
@@ -20,6 +22,8 @@ const SupermarketInfo = () => {
   const chooseData = (name: Supermarkets): Items[] => {
     if (name === Supermarkets.gadis) return gadisData;
     else if (name === Supermarkets.carrefour) return carrefourData;
+    else if (name === Supermarkets.mercadona) return mercadonaData;
+     else if (name === Supermarkets.alcampo) return alcampoData;
     else return [];
   };
   const data: Items[] = chooseData(superMarketName as Supermarkets);
@@ -35,8 +39,10 @@ const SupermarketInfo = () => {
 
   return (
     <section className="supermarket-container">
-      <button className="back-button" onClick={ () => navigate("/")}>Back</button>
-      <h2>{superMarketName}</h2>
+      <header>
+        <button className="back-button" onClick={ () => navigate("/")}>Back</button>
+        <h2>{superMarketName}</h2>
+      </header>
       <input type="text"  className="searcher" onChange={(ev) => searchHandler(ev) }/>
       {!isSearching && <div className="items-list">
           {data.map((item) => (<ItemList item={item} />))}

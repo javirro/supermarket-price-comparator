@@ -8,10 +8,10 @@ import '../styles/landing.css'
 
 const Landing = () => {
   const supermarketList: Supermarkets[] = [
-    Supermarkets.gadis,
     Supermarkets.carrefour,
-    Supermarkets.alcampo,
+    Supermarkets.gadis,
     Supermarkets.mercadona,
+    Supermarkets.alcampo
   ]
   const navigate = useNavigate()
   const chooseImage = (name: string) => {
