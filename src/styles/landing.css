@@ -1,3 +1,9 @@
+.landing-title {
+  background-image: linear-gradient(to left, #7ff57b, #00dc00);
+  background-clip: text;
+  color: transparent;
+  font-size: 2rem;
+}
 .supermarkets-container {
   display: flex;
   flex-direction: column;
@@ -15,7 +21,7 @@
   border-radius: 8px;
   padding: 5px 40px;
   cursor: pointer;
-   background-image: linear-gradient(
+  background-image: linear-gradient(
     to left bottom,
     #095a05,
     #0d460e,

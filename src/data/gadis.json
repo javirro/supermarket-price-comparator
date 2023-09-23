@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Kefir",
+    "price": 1.4,
+    "brand": "Gadis",
+    "other": ""
+  },
+  {
+    "name": "Pollo",
+    "price": 1.99,
+    "brand": "Gadis",
+    "other": ""
+  },
+  {
+    "name": "Yogures (pack 8)",
+    "price": 1.5,
+    "brand": "Gadis",
+    "other": ""
+  }
+]

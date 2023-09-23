@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Kefir",
+    "price": 1.4,
+    "brand": "Carrefour",
+    "other": ""
+  },
+  {
+    "name": "Pollo",
+    "price": 1.99,
+    "brand": "Carrefour",
+    "other": ""
+  },
+  {
+    "name": "Yogures (pack 8)",
+    "price": 1.5,
+    "brand": "Carrefour",
+    "other": ""
+  }
+]
