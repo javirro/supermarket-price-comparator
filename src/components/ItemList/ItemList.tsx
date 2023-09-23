@@ -4,9 +4,8 @@ import './itemList.css'
 export const ItemList = ({ item }: { item: Items }) => {
   return (
     <div className="item-container">
-      <span>{item.name}</span>
-      <span>{item.price} €</span>
-      <span>{item.brand}</span>
+      <span className="item-name">{item?.name}</span>
+      <span className="item-name">{item?.price} €</span>
     </div>
   )
 }
