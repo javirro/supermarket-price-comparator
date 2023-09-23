@@ -39,11 +39,29 @@
   margin-top: 30px;
 }
 
-.searcher {
+.search-container {
   position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  img {
+    position: absolute;
+    left: 35px;
+    top: 25px;
+    width: 21px;
+    height: 21px;
+  }
+
+  .opacity {
+    opacity: 0.2;
+  }
+}
+
+.searcher {
   margin-top: 15px;
   width: 80%;
-  padding: 8px 4px;
+  padding: 8px 5px;
   border-radius: 5px;
   background-color: rgba(0, 0, 0, 0.24);
   color: white;

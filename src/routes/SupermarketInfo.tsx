@@ -7,6 +7,7 @@ import { Items, Supermarkets } from "../utils/types";
 import { ItemList } from "../components/ItemList/ItemList";
 import { useNavigate } from 'react-router-dom'
 import { useState } from "react";
+import searchItem from '../images/lupa.svg'
 import '../styles/supermarketInfo.css'
 
 
@@ -33,7 +34,7 @@ const SupermarketInfo = () => {
     else {
     const currentValue: string = (ev.target.value).toLowerCase()
     const filteredItems:Items[] = data.filter(item => (item.name.toLowerCase()).includes(currentValue))
-    if(filteredItems) setResult(filteredItems)
+    if (filteredItems) setResult(filteredItems)
     setIsSearching(true)}
   }
 
@@ -43,7 +44,10 @@ const SupermarketInfo = () => {
         <button className="back-button" onClick={ () => navigate("/")}>Back</button>
         <h2>{superMarketName}</h2>
       </header>
-      <input type="text"  className="searcher" onChange={(ev) => searchHandler(ev) }/>
+      <article className="search-container">
+        <img src={searchItem} alt="lupa" className={isSearching ? "opacity" : ""} />
+        <input type="text"  className="searcher" onChange={(ev) => searchHandler(ev) }/>
+      </article>
       {!isSearching && <div className="items-list">
           {data.map((item) => (<ItemList item={item} />))}
         </div>}
