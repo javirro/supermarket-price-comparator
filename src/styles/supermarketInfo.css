@@ -1,5 +1,7 @@
 .supermarket-container {
   position: relative;
+    height: 100%;
+    padding-bottom: 25px;
   .back-button {
     margin: 5px;
     background-color: transparent;
