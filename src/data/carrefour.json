@@ -16,5 +16,59 @@
     "price": 1.5,
     "brand": "Carrefour",
     "other": ""
+  },
+  {
+    "name": "Leche Leyma",
+    "price": 1.09,
+    "brand": "Carrefour",
+    "other": ""
+  },
+  {
+    "name": "Leche almendras",
+    "price": 1.19,
+    "brand": "Carrefour",
+    "other": ""
+  },
+  {
+    "name": "Tortitas",
+    "price": 2.4,
+    "brand": "Carrefour",
+    "other": ""
+  },
+  {
+    "name": "Queso Gouda",
+    "price": 2.2,
+    "brand": "Carrefour",
+    "other": ""
+  },
+  {
+    "name": "Queso rallado",
+    "price": 1.6,
+    "brand": "Carrefour",
+    "other": ""
+  },
+    {
+    "name": "Queso en polvo",
+    "price": 1.5,
+    "brand": "Carrefour",
+    "other": ""
+  },
+      {
+    "name": "Jamon york",
+    "price": 2.25,
+    "brand": "Carrefour",
+    "other": ""
+  },
+  {
+    "name": "Papel higiénico",
+    "price": 2.25,
+    "brand": "Carrefour",
+    "other": ""
+  },
+    {
+    "name": "Papel cocina",
+    "price": 4.3,
+    "brand": "Carrefour",
+    "other": ""
   }
 ]

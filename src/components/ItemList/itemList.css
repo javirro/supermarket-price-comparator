@@ -3,7 +3,7 @@
   grid-template-columns: 200px 80px;
   grid-column: 1;
   place-items: start start;
-  width: 90%;
+  width: 80%;
   padding: 10px;
   background-color: wheat;
   border-radius: 7px;

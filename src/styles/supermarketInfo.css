@@ -1,6 +1,6 @@
 .supermarket-container {
   position: relative;
-  .back-button{
+  .back-button {
     position: absolute;
     left: 0;
     margin: 5px;
@@ -8,12 +8,12 @@
     padding: 4px 8px;
     color: greenyellow;
     font-weight: bold;
+    font-size: 1rem;
     border-radius: 4px;
     cursor: pointer;
+     font-family: "grafton";
   }
 }
-
-
 
 .items-list {
   display: flex;
@@ -23,4 +23,17 @@
   width: 100%;
   gap: 10px;
   margin-top: 30px;
+}
+
+.searcher {
+  position: relative;
+  margin-top: 15px;
+  width: 80%;
+  padding: 8px 4px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  font-family: "grafton";
+  font-size: 1.1rem;
+  letter-spacing: 1px;
 }
