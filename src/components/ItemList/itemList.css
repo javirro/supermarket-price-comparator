@@ -1,0 +1,10 @@
+.item-container {
+  display: grid;
+  grid-template-columns: 180px 60px 150px;
+  grid-column: 1;
+  place-items: start start;
+  width: 90%;
+  padding: 10px;
+  background-color: wheat;
+  border-radius: 7px;
+}
