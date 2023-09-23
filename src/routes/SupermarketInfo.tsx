@@ -45,7 +45,7 @@ const SupermarketInfo = () => {
         <h2>{superMarketName}</h2>
       </header>
       <article className="search-container">
-        <img src={searchItem} alt="lupa" className={isSearching ? "opacity" : ""} />
+        <img src={searchItem} alt="lupa" className={isSearching ? "lupa opacity" : "lupa"} />
         <input type="text"  className="searcher" onChange={(ev) => searchHandler(ev) }/>
       </article>
       {!isSearching && <div className="items-list">
