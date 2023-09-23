@@ -47,7 +47,7 @@
 
   img {
     position: absolute;
-    left: 35px;
+    left: calc(100% - 90%);
     top: 25px;
     width: 21px;
     height: 21px;
