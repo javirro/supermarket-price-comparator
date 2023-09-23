@@ -4,8 +4,9 @@ import gadisData from "../data/gadis.json";
 import { Items, Supermarkets } from "../utils/types";
 import { ItemList } from "../components/ItemList/ItemList";
 import { useNavigate } from 'react-router-dom'
-import '../styles/supermarketInfo.css'
 import { useState } from "react";
+import '../styles/supermarketInfo.css'
+
 
 const SupermarketInfo = () => {
   const [isSearching, setIsSearching] = useState<boolean>(false)

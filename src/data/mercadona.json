@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Kefir",
+    "price": 1.4,
+    "brand": "Hacendado",
+    "other": ""
+  },
+  {
+    "name": "Pollo",
+    "price": 1.99,
+    "brand": "Hacendado",
+    "other": ""
+  },
+  {
+    "name": "Yogures (pack 6)",
+    "price": 1.4,
+    "brand": "Hacendado",
+    "other": ""
+  },
+  {
+    "name": "Verduras",
+    "price": 1.7,
+    "brand": "Hacendado",
+    "other": ""
+  },
+  {
+    "name": "Sardinillas",
+    "price": 1.8,
+    "brand": "Hacendado",
+    "other": ""
+  }
+]

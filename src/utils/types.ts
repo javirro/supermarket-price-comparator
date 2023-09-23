@@ -2,6 +2,7 @@ export enum Supermarkets {
   gadis = "Gadis",
   carrefour = "Carrefour",
   alcampo = "Alcampo",
+  mercadona = "Mercadona",
 }
 
 export interface Items {
