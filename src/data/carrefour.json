@@ -13,7 +13,7 @@
   },
   {
     "name": "Yogures (pack 8)",
-    "price": 1.5,
+    "price": 1.4,
     "brand": "Carrefour",
     "other": ""
   },
@@ -29,6 +29,12 @@
     "brand": "Carrefour",
     "other": ""
   },
+    {
+    "name": "Arroz vaso pequeño",
+    "price": 1.25,
+    "brand": "Carrefour",
+    "other": ""
+  },
   {
     "name": "Tortitas",
     "price": 2.4,
@@ -41,15 +47,39 @@
     "brand": "Carrefour",
     "other": ""
   },
+    {
+    "name": "Jamon cocido 300g",
+    "price": 2.35,
+    "brand": "Carrefour",
+    "other": ""
+  },
+    {
+    "name": "Queso Edam 200g",
+    "price": 1.35,
+    "brand": "Carrefour",
+    "other": ""
+  },
   {
     "name": "Queso rallado",
-    "price": 1.6,
+    "price": 1.54,
     "brand": "Carrefour",
     "other": ""
   },
     {
     "name": "Queso en polvo",
     "price": 1.5,
+    "brand": "Carrefour",
+    "other": ""
+  },
+      {
+    "name": "Pan centeno 675g",
+    "price": 2.25,
+    "brand": "Carrefour",
+    "other": ""
+  },
+    {
+    "name": "Masa hojaldre x2",
+    "price": 2.19,
     "brand": "Carrefour",
     "other": ""
   },
@@ -61,7 +91,7 @@
   },
   {
     "name": "Papel higiénico",
-    "price": 2.25,
+    "price": 2.29,
     "brand": "Carrefour",
     "other": ""
   },
