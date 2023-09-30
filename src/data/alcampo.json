@@ -2,19 +2,43 @@
   {
     "name": "Kefir",
     "price": 1.4,
-    "brand": "Gadis",
+    "brand": "Al campo",
     "other": ""
   },
   {
     "name": "Pollo",
     "price": 1.99,
-    "brand": "Gadis",
+    "brand": "Al campo",
     "other": ""
   },
   {
-    "name": "Yogures (pack 8)",
-    "price": 1.5,
-    "brand": "Gadis",
+    "name": "Arándanos 500g",
+    "price": 8.95,
+    "brand": "Al campo",
+    "other": ""
+  },
+    {
+    "name": "Tortitas de cereales",
+    "price": 2.08,
+    "brand": "Al campo",
+    "other": ""
+  },
+      {
+    "name": "Tortitas normales",
+    "price": 1.86,
+    "brand": "Al campo",
+    "other": ""
+  },
+        {
+    "name": "Queso en Polvo",
+    "price": 1.00,
+    "brand": "Caserio",
+    "other": ""
+  },
+          {
+    "name": "Bacon Oscar Mayer 150gr",
+    "price": 2.28,
+    "brand": "Caserio",
     "other": ""
   }
 ]
